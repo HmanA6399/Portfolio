@@ -1,0 +1,45 @@
+.uppercase {
+    text-transform: uppercase;
+}
+
+.red {
+    color: red;
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+
+.jumbo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #888888;
+    padding: 20px;
+    text-align: center;
+}
+
+.jumbo h1 {
+    font-size: 5rem;
+    top: 30%;
+}
+
+ul.one-line {
+    list-style-type: none;
+    display: inline-block;
+}
+
+div.logo {
+    display: inline-block;
+}
+
+ul.one-line li {
+    outline: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+}

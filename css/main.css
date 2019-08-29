@@ -1,0 +1,78 @@
+@import './framework.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #cccccc;
+    font-family: 'Lato', 'monospace';
+}
+
+nav {
+    box-sizing: border-box;
+    height: 17vh;
+    padding: 25px 40px 25px 25px;
+    background-color: rgba(0,0,0,0.8);
+    color: #eeeeee;
+}
+
+ul.top {
+    position: absolute;
+    /* top: 10px; */
+    left: 30%;
+}
+
+ul.top li {
+    transition: color 0.5s ease;
+}
+
+ul.top li:hover {
+    color: #aaaa00;
+}
+
+div.right {
+    right: 10%;
+}
+
+div.right * {
+    margin: 5px;
+}
+
+div.right img {
+    height: 20px;
+    width: 20px;
+}
+
+#experience {
+    background: skyblue;
+    width: 50%;
+}
+
+.grid {
+    float: left;
+}
+
+#experience p {
+    text-decoration: nonez;
+}
+
+.grid-item {
+    width: 30%;
+    padding: 20px;
+    margin: 3px;
+    display: inline-block;
+    background: coral;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.full, .full-width {
+    width: 100;
+}
